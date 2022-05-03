@@ -1,8 +1,11 @@
 package model;
 
+import java.util.List;
+
 public class Office {
 
     private String name;
+    private List<Worker> workerList;
 
     public Office() {
     }

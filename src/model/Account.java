@@ -27,4 +27,22 @@ public class Account {
     public void setBalance(Double balance) {
         this.balance = balance;
     }
+
+    public void deposit(Double value)
+    {
+        this.setBalance(this.getBalance() + value);
+    }
+
+    public void withdraw(Double value)
+    {
+        if (value > this.getBalance())
+        {
+            System.out.println("Limit not available");
+        }
+        else
+        {
+            this.setBalance(this.getBalance() - value);
+        }
+    }
+
 }
