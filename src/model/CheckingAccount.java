@@ -1,5 +1,7 @@
 package model;
-
+/*
+ * created by: Jorge.Lessa
+ */
 public class CheckingAccount extends Account {
 
     private Double limit;

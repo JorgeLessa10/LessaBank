@@ -1,5 +1,7 @@
 package model;
-
+/*
+ * created by: Jorge.Lessa
+ */
 public class Worker extends Person {
 
     private Double salary;

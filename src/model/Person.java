@@ -1,5 +1,7 @@
 package model;
-
+/*
+ * created by: Jorge.Lessa
+ */
 public class Person {
     private String cpf;
     private String name;

@@ -1,7 +1,9 @@
 package model;
 
 import java.util.List;
-
+/*
+ * created by: Jorge.Lessa
+ */
 public class Office {
 
     private String name;

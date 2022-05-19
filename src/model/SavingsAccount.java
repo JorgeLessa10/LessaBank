@@ -1,5 +1,7 @@
 package model;
-
+/*
+ * created by: Jorge.Lessa
+ */
 public class SavingsAccount extends Account{
 
     private Double profitability;

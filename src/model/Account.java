@@ -1,5 +1,7 @@
 package model;
-
+/*
+ * created by: Jorge.Lessa
+ */
 public class Account {
     private String number;
     private Double balance;

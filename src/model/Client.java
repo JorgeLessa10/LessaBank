@@ -1,5 +1,7 @@
 package model;
-
+/*
+ * created by: Jorge.Lessa
+ */
 import java.util.List;
 
 public class Client extends Person{
